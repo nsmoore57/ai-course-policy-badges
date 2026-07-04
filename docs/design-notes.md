@@ -32,6 +32,10 @@ Icons are intentionally simple and supplementary:
 
 The text label and surrounding prose carry the meaning, so the icons are not required for interpretation.
 
+## Optical alignment
+
+The icons are optically centered inside their white circles rather than merely centered by equal coordinate gaps. Asymmetric forms such as a wrench or document/check mark can look off-center when placed by geometric bounding boxes alone, so the icon artwork is nudged until the visual weight appears balanced.
+
 ## Technical choices
 
 - SVG is the source of truth.

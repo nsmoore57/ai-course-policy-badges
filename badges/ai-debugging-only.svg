@@ -9,9 +9,8 @@
   <rect x="2" y="2" width="288" height="60" rx="13" fill="#F8FAFC" stroke="#C9D0D8" filter="url(#shadow-ai-debugging-only)"/>
   <rect x="2" y="2" width="8" height="60" rx="4" fill="#005EB8"/>
   <circle cx="40" cy="32" r="22" fill="#FFFFFF" stroke="#D8DEE6"/>
-  <g aria-hidden="true" stroke="#005EB8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+  <g aria-hidden="true" transform="translate(2 -1)" stroke="#005EB8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
           <path d="M50.5 20.8a10.5 10.5 0 0 1-13.2 13.2L27.4 43.9a3.4 3.4 0 0 1-4.8-4.8l9.9-9.9A10.5 10.5 0 0 1 45.7 16l-6.2 6.2 4.8 4.8 6.2-6.2z" fill="#FFFFFF"/>
-          <circle cx="25" cy="41.5" r="1.1" fill="#005EB8" stroke="none"/>
         </g>
   <text x="76" y="28" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1.2" fill="#4A5563">AI USE</text>
   <text x="76" y="46" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#111827">AI Debugging Only</text>
