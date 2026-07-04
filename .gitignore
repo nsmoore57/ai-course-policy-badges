@@ -6,3 +6,6 @@ Thumbs.db
 
 # Generated exports may be added intentionally after review
 *.tmp
+.cache/
+examples/*_html/
+examples/generated-assets/

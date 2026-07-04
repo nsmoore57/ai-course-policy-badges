@@ -27,6 +27,7 @@ snippets/canvas/            Canvas-safe HTML fragments
 snippets/jupyter/           Markdown cells for Jupyter notebooks
 snippets/markdown/          plain Markdown fallbacks
 examples/                   examples showing all three badges together
+templates/pretext/           reusable PreTeXt problem-document template and CSS
 docs/                       usage, accessibility, and design notes
 ```
 
@@ -45,6 +46,18 @@ git submodule add https://github.com/nsmoore57/ai-course-policy-badges.git asset
 ```
 
 Then adapt the `source="assets/ai-course-policy-badges/badges/...svg"` path in `snippets/pretext/*.xml` to match the course build layout.
+
+For a fuller problem-set layout, see:
+
+- `templates/pretext/problem-document-template.ptx`
+- `templates/pretext/ai-badge-problem-document.css`
+- `examples/example-pretext-problem-document.ptx`
+
+The CSS can be attached to a course HTML target with a PreTeXt project string parameter such as:
+
+```xml
+<stringparams html.css.extra="external/ai-badge-problem-document.css" />
+```
 
 ### Jupyter
 
