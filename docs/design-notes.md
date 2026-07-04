@@ -27,7 +27,7 @@ The badges avoid heavy maroon saturation and should sit cleanly in Canvas pages,
 Icons are intentionally simple and supplementary:
 
 - lock for **AI Not Permitted**;
-- wrench for **AI Debugging Only**;
+- bug/debug symbol for **AI Debugging Only**;
 - document/check mark for **AI Permitted with Disclosure**.
 
 The text label and surrounding prose carry the meaning, so the icons are not required for interpretation.
