@@ -4,7 +4,7 @@
 
 The badges are compact horizontal SVGs with:
 
-- a restrained accent bar;
+- a solid restrained accent bar;
 - a simple supplementary icon;
 - a small `AI USE` eyebrow label;
 - the exact policy label in large text;
@@ -16,9 +16,9 @@ The goal is a professional university-course look rather than a playful sticker 
 
 The colors are WTAMU-adjacent accents rather than large saturated color fields:
 
-- muted maroon/charcoal for **AI Not Permitted**;
-- WT-style blue with a restrained gold secondary accent for **AI Debugging Only**;
-- restrained green with maroon secondary accent for **AI Permitted with Disclosure**.
+- muted maroon/red for **AI Not Permitted**;
+- WT-style blue for **AI Debugging Only**;
+- restrained green for **AI Permitted with Disclosure**.
 
 The badges avoid heavy maroon saturation and should sit cleanly in Canvas pages, PreTeXt notes, notebooks, and handouts.
 

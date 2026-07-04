@@ -10,9 +10,9 @@ These badges provide a consistent visual language for marking AI-use expectation
 
 | Badge | Meaning | Visual accent |
 |---|---|---|
-| **AI Not Permitted** | Students must complete the marked work without AI assistance. | restrained maroon/charcoal with lock icon |
-| **AI Debugging Only** | Students may use AI to understand errors, diagnose problems, and ask guiding questions, but not to generate a full solution. | WT-style blue/gold with wrench icon |
-| **AI Permitted with Disclosure** | Students may use AI as a tutor, assistant, brainstorming partner, or reviewer, but must disclose its use and understand submitted work. | restrained green/maroon with disclosure-note icon |
+| **AI Not Permitted** | Students must complete the marked work without AI assistance. | solid restrained maroon/red with lock icon |
+| **AI Debugging Only** | Students may use AI to understand errors, diagnose problems, and ask guiding questions, but not to generate a full solution. | solid WT-style blue with wrench icon |
+| **AI Permitted with Disclosure** | Students may use AI as a tutor, assistant, brainstorming partner, or reviewer, but must disclose its use and understand submitted work. | solid restrained green with disclosure-note icon |
 
 Core principle:
 
