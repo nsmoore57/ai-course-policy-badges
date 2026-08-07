@@ -4,7 +4,7 @@
 
 ```html
 <p>
-  <img src="AI_NOT_PERMITTED_IMAGE_URL"
+  <img src="https://nsmoore57.github.io/ai-course-policy-badges/ai-not-permitted.svg"
        alt="AI Not Permitted. Students must complete the marked work without AI assistance."
        style="max-width: 320px; height: auto;">
 </p>
@@ -18,7 +18,7 @@
 
 ```html
 <p>
-  <img src="AI_DEBUGGING_ONLY_IMAGE_URL"
+  <img src="https://nsmoore57.github.io/ai-course-policy-badges/ai-debugging-only.svg"
        alt="AI Debugging Only. Students may use AI to understand errors, diagnose problems, and ask guiding questions, but not to generate a full solution."
        style="max-width: 320px; height: auto;">
 </p>
@@ -32,7 +32,7 @@
 
 ```html
 <p>
-  <img src="AI_PERMITTED_DISCLOSURE_IMAGE_URL"
+  <img src="https://nsmoore57.github.io/ai-course-policy-badges/ai-permitted-disclosure.svg"
        alt="AI Permitted with Disclosure. Students may use AI as a tutor, assistant, brainstorming partner, or reviewer, but must disclose its use and understand submitted work."
        style="max-width: 320px; height: auto;">
 </p>

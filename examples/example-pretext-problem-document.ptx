@@ -36,7 +36,7 @@
 
       <paragraphs xml:id="problem-ai-not-permitted" custom-class="ai-problem-card">
         <title>Problem 1. Bisection by hand <nbsp/> <em>10 points</em></title>
-        <image source="badges/ai-not-permitted.svg" width="35%" custom-class="ai-policy-badge">
+        <image source="https://nsmoore57.github.io/ai-course-policy-badges/badges/ai-not-permitted.svg" width="35%" custom-class="ai-policy-badge">
           <description>AI Not Permitted. Students must complete the marked work without AI assistance.</description>
         </image>
         <p custom-class="ai-policy-note">
@@ -54,7 +54,7 @@
 
       <paragraphs xml:id="problem-ai-debugging-only" custom-class="ai-problem-card">
         <title>Problem 2. Debugging a Newton iteration <nbsp/> <em>15 points</em></title>
-        <image source="badges/ai-debugging-only.svg" width="35%" custom-class="ai-policy-badge">
+        <image source="https://nsmoore57.github.io/ai-course-policy-badges/badges/ai-debugging-only.svg" width="35%" custom-class="ai-policy-badge">
           <description>AI Debugging Only. Students may use AI to understand errors, diagnose problems, and ask guiding questions, but not to generate a full solution.</description>
         </image>
         <p custom-class="ai-policy-note">
@@ -82,7 +82,7 @@
 
       <paragraphs xml:id="problem-ai-permitted-disclosure" custom-class="ai-problem-card">
         <title>Problem 3. Method comparison reflection <nbsp/> <em>15 points</em></title>
-        <image source="badges/ai-permitted-disclosure.svg" width="45%" custom-class="ai-policy-badge">
+        <image source="https://nsmoore57.github.io/ai-course-policy-badges/badges/ai-permitted-disclosure.svg" width="45%" custom-class="ai-policy-badge">
           <description>AI Permitted with Disclosure. Students may use AI as a tutor, assistant, brainstorming partner, or reviewer, but must disclose its use and understand submitted work.</description>
         </image>
         <p custom-class="ai-policy-note">
