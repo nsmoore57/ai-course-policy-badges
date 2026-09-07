@@ -1,0 +1,40 @@
+name: Generate PNGs from SVGs
+
+on:
+  push:
+    paths:
+      - '**.svg'
+
+# Grants the default token permission to push commits
+permissions:
+  contents: write
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Convert SVGs to PNGs
+        run: |
+          # Find all SVGs recursively and convert them
+          for file in $(find . -type f -name "*.svg"); do
+            magick "$file" "${file%.svg}.png"
+          done
+
+      - name: Commit and Push changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Add all newly generated or updated PNGs
+          git add "**/*.png"
+
+          # Only commit if there are actual changes
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: auto-generate PNGs from SVGs"
+            git push
+          else
+            echo "No PNG changes to commit."
+          fi
