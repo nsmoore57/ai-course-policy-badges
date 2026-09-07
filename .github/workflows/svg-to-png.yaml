@@ -20,7 +20,7 @@ jobs:
         run: |
           # Find all SVGs recursively and convert them
           for file in $(find . -type f -name "*.svg"); do
-            magick "$file" "${file%.svg}.png"
+            convert "$file" "${file%.svg}.png"
           done
 
       - name: Commit and Push changes
