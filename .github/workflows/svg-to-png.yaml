@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - '**.svg'
+  workflow_dispatch:
 
 # Grants the default token permission to push commits
 permissions:
