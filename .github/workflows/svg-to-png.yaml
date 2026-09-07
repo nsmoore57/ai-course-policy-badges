@@ -17,25 +17,33 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Install ImageMagick
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick
+
       - name: Convert SVGs to PNGs
         run: |
-          # Find all SVGs recursively and convert them
+          echo "Finding and converting SVGs..."
           for file in $(find . -type f -name "*.svg"); do
+            echo "Converting $file..."
             convert "$file" "${file%.svg}.png"
           done
+
+          echo "Listing all PNGs to verify they exist:"
+          find . -type f -name "*.png"
 
       - name: Commit and Push changes
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Add all newly generated or updated PNGs
-          git add "**/*.png"
+          git add -A
+          git status
 
-          # Only commit if there are actual changes
           if ! git diff --staged --quiet; then
             git commit -m "chore: auto-generate PNGs from SVGs"
             git push
           else
-            echo "No PNG changes to commit."
+            echo "No changes detected."
           fi
